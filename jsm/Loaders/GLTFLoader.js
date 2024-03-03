@@ -183,11 +183,11 @@ class GLTFLoader extends Loader {
 
 		let resourcePath;
 
-		if ( this.resourcePath !== '' ) {
+		if ( this.resourcePath !== 'https://github.com/TaejuneYoun/designed_realities/' ) {
 
 			resourcePath = this.resourcePath;
 
-		} else if ( this.path !== '' ) {
+		} else if ( this.path !== 'https://github.com/TaejuneYoun/designed_realities/' ) {
 
 			// If a base path is set, resources will be relative paths from that plus the relative path of the gltf file
 			// Example  path = 'https://my-cnd-server.com/', url = 'assets/models/model.gltf'
