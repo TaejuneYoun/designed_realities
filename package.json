@@ -8,7 +8,7 @@
     "github"
     
   ],
-  "deploy": "gh-pages -d designed-realities"
+  "deploy": "gh-pages -d designed_realities"
   "author": {
     "name": "Tim Schaub",
     "url": "http://tschaub.net/"
