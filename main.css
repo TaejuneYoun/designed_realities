@@ -1,11 +1,11 @@
 body {
-	margin: 10;
+	margin: 0;
 	background-color: #000;
 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%231C225E" width="64px" height="64px"><circle cx="12" cy="12" r="10"/></svg>'), auto;
 	color: #fff;
 	font-family: 'Bricolage Grotesque', sans-serif;
 	font-size: 30px;
-	line-height: 24px;
+	line-height: 32px;
 	overscroll-behavior: none;
 }
 
@@ -25,7 +25,8 @@ button {
 
 #info {
 	position: absolute;
-	top: 10px;
+	top: 50px;
+	left: 50px;
 	width: 100%;
 	padding: auto;
 	box-sizing: border-box;
