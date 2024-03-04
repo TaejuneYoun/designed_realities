@@ -36,14 +36,10 @@ function init() {
 
             const loader = new GLTFLoader().setPath( '../designed_realities/exhibition/' );
             loader.load( 'Test.glb', async function ( gltf ) {
-
                 const model = gltf.scene;
-
-                // wait until the model can be added to the scene without blocking due to shader compilation
-
-                await renderer.compileAsync( model, camera, scene );
-
-                scene.add( model );
+              
+                scene.add(model);
+                renderer.compile(scene, camera);
 
                 render();
 
