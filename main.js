@@ -34,7 +34,7 @@ function init() {
 
             // model
 
-            const loader = new GLTFLoader().setPath( '../designed_realities//exhibition/' );
+            const loader = new GLTFLoader().setPath( '../designed_realities/exhibition/' );
             loader.load( 'Test.glb', async function ( gltf ) {
 
                 const model = gltf.scene;
