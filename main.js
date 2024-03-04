@@ -22,7 +22,7 @@ function init() {
     scene = new THREE.Scene();
 
     new RGBELoader()
-        .setPath( '../exhibition/' )
+        .setPath( '../designed_realities/exhibition/' )
         .load( 'studio_small_08_1k.hdr', function ( texture ) {
 
             texture.mapping = THREE.EquirectangularReflectionMapping;
@@ -34,7 +34,7 @@ function init() {
 
             // model
 
-            const loader = new GLTFLoader().setPath( '../exhibition/' );
+            const loader = new GLTFLoader().setPath( '../designed_realities//exhibition/' );
             loader.load( 'Test.glb', async function ( gltf ) {
 
                 const model = gltf.scene;
