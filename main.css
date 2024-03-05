@@ -47,6 +47,11 @@ a, button, input, select {
 	z-index: 2 !important; /* TODO Solve this in HTML */
 }
 
+@font-face {
+    font-family: 'Futura-Heavy';
+    src:url('./fonts/Futura-Heavy.woff') format('woff'),
+        url('./fonts/Futura-Heavy.woff2') format('woff2');
+	
 @media all and ( max-width: 640px ) {
 	.lil-gui.root { 
 		right: auto;
