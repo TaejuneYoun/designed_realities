@@ -6,6 +6,10 @@ import {
   CSS2DRenderer,
   CSS2DObject,
 } from "three/addons/renderers/CSS2DRenderer.js";
+import axios from 'axios';
+
+axios.defaults.baseURL = render.githubusercontent.com;
+axios.defaults.withCredentials = true;
 
 let camera, scene, renderer;
 
