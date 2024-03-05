@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'Futura-Heavy';
-    src:url('./fonts/Futura-Heavy.woff') format('woff'),
-        url('./fonts/Futura-Heavy.woff2') format('woff2');
-    /* 이런식으로 weight를 지정해서 사용할 수도 있다!*/
-    /*font-weight: 400*/
-} 
